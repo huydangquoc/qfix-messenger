@@ -153,7 +153,7 @@ public class QFixMessengerFrame extends JFrame
 
 	private static final int FRAME_MIN_WIDTH = 600;
 
-	private static final int LEFT_PANEL_WIDTH = 170;
+	private static final int LEFT_PANEL_WIDTH = 370;
 
 	private static final String VERSION = "2.0";
 
@@ -550,7 +550,7 @@ public class QFixMessengerFrame extends JFrame
 
 		bottomPanelScrollPane = new JScrollPane(messagesTable);
 		bottomPanelScrollPane.setPreferredSize(new Dimension(
-				bottomPanelScrollPane.getPreferredSize().width, 120));
+				bottomPanelScrollPane.getPreferredSize().width, 320));
 		bottomPanelScrollPane.getViewport().add(messagesTable);
 		add(bottomPanelScrollPane, BorderLayout.SOUTH);
 	}
