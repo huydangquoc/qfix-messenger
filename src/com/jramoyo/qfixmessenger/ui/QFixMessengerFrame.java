@@ -540,6 +540,7 @@ public class QFixMessengerFrame extends JFrame
 		messagesTable.getColumnModel().getColumn(2).setPreferredWidth(75);
 		messagesTable.getColumnModel().getColumn(3).setPreferredWidth(5);
 		messagesTable.getColumnModel().getColumn(4).setPreferredWidth(510);
+		messagesTable.setRowHeight(50);
 
 		messagesTable.setDefaultRenderer(String.class,
 				new MessagesTableCellRender());
